@@ -1,0 +1,108 @@
+*{
+    font-family: Arial, Helvetica, sans-serif;
+  }
+
+  nav a {
+  margin: 0 10px;
+  color: rgb(161, 28, 28);
+  text-decoration: none;
+  font-weight: 500;
+  transition: transform 0.3s ease, color 0.3s ease;
+  display: inline-block;
+  align-items: center;
+  }
+
+  nav a:hover {
+  text-decoration: underline;
+  color: #ffd54f;
+  transform: scale(1.1);
+  }
+  nav a:active{
+    color: green;
+    transform: scale(0.95);
+  }
+
+  section {
+  padding: 40px;
+  max-width: 900px;
+  margin: auto;
+  background-color: white;
+  border-radius: 12px;
+  margin-bottom: 30px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.08);
+  animation: bounceFadeIn 1.4s ease;
+  }
+  h1{
+    color: blue;
+    text-align: center;
+  }
+  h2{
+    color: maroon;
+    font-size: 30px;
+  }
+  h4{
+    font-size: 24px;
+    margin-top: 10px;
+    margin-bottom: 5px;
+    color: #534824;
+  }
+  p{
+    font-size: 20px;
+    font-family: arial;
+  }
+  .cat{
+    width: 250px;
+  height: 200px;
+  }
+    .slideshow {
+      max-width: 500px;
+      margin: auto;
+      background: white;
+      border-radius: 10px;
+      padding: 20px;
+      box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+    }
+    .slide {
+      display: none;
+    }
+    .slide img {
+      width: 100%;
+      border-radius: 10px;
+    }
+    .buttons {
+      margin-top: 10px;
+    }
+    button {
+      padding: 8px 15px;
+      margin: 5px;
+      border: none;
+      border-radius: 5px;
+      background: #333;
+      color: white;
+      cursor: pointer;
+    }
+    button:hover {
+      background: #555;
+    }
+  footer{
+    margin-top: 20px;
+    text-align: center;
+    font-size: 25px;
+    font-style: italic;
+    font-family: Arial, Helvetica, sans-serif;
+  }
+  @media (max-width: 600px) {
+  section {
+    padding: 20px;
+  }
+  nav a {
+    display: block;
+    margin: 8px 0;
+  }
+  h1 {
+    font-size: 24px;
+  }
+  p, li {
+    font-size: 18px;
+  }
+}
